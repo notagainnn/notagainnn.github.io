@@ -8,12 +8,14 @@
 main {
     background-image: url("beachphoto.PNG");
     background-size: cover;
+    padding-bottom: 10rem;
 }
 
 footer {
-    margin-top: 2rem;
+    margin-top: 10rem;
 }
 
 .btn:hover {
     background-color: gold;
+    color: black;
 }
