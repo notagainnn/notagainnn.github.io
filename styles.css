@@ -2,3 +2,7 @@ body {
     background-color: darkslategrey;
     background-size: cover;
 }
+
+.header {
+    display: flex;
+}
