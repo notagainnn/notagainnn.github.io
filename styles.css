@@ -9,3 +9,7 @@ main {
     background-image: url("beachphoto.PNG");
     background-size: cover;
 }
+
+footer {
+    margin-top: 2rem;
+}
