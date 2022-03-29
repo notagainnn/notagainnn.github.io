@@ -9,6 +9,7 @@ main {
     background-image: url("beachphoto.PNG");
     background-size: cover;
     padding-bottom: 10rem;
+    min-height: 100vh;
 }
 
 footer {
