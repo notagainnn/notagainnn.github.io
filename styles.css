@@ -26,7 +26,7 @@ main {
     padding-bottom: 10rem;
     min-height: 100vh;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
     main {
       background-image: none;
     }
