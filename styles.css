@@ -2,9 +2,22 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: white;
+    align-items: center;
     margin-bottom: 2rem;
-    padding-bottom:2rem;
+    margin-top: 2rem;
+    padding-bottom:.6rem;
+    padding-top:.6rem;
+    
+}
+
+.headertext {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    width: 32rem;
+    text-align: center;
+    border-radius: 4px;
+    
 }
 main {
     background-image: url("beachphoto.PNG");
@@ -22,3 +35,7 @@ footer {
     color: black;
 }
 
+.btn {
+    padding-top: 0;
+    padding-bottom: 0;
+}
