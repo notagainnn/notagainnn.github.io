@@ -13,10 +13,11 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: white;
-    width: 32rem;
     text-align: center;
     border-radius: 4px;
-    min-width: 32rem;
+    max-width: 20rem;
+    min-width: 16rem;
+    font-size: 12px;
     
 }
 main {
@@ -29,7 +30,18 @@ main {
     main {
       background-image: none;
     }
+
+    .maincontainer .row{
+        display: grid;
+        justify-content: center;
+    }
   }
+
+.cardcontainer {
+    display: grid;
+    
+}
+
 
 footer {
     margin-top: 10rem;
