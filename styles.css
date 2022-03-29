@@ -4,6 +4,7 @@
     text-align: center;
     background-color: white;
     margin-bottom: 2rem;
+    padding-bottom:2rem;
 }
 main {
     background-image: url("beachphoto.PNG");
@@ -20,3 +21,4 @@ footer {
     background-color: gold;
     color: black;
 }
+
