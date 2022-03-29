@@ -38,10 +38,9 @@ main {
   }
 
 .cardcontainer {
-    display: grid;
-    
+    display: flex;
+    align-items: center;
 }
-
 
 footer {
     margin-top: 10rem;
