@@ -52,7 +52,7 @@
 
 
 .bio p{
-    background-image: url(./coorscropsquare.PNG);
+    background-image: url("./coorscropsquare.PNG");
     width:200px;
     height:200px;
     background-position: center;
