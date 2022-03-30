@@ -1,25 +1,82 @@
 .header {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns:50% 50%;
+    justify-items: center;
     text-align: center;
-    align-items: center;
     margin-bottom: 2rem;
     padding-bottom:.6rem;
     padding-top:.6rem;
-    
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .headertext {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     background-color: white;
     text-align: center;
     border-radius: 4px;
     max-width: 20rem;
     min-width: 16rem;
+    max-height: 10rem;
     font-size: 12px;
+    order: 1;   
+
+}
+
+.contact {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: white;
+    text-align: center;
+    max-width: auto;
+    min-width: auto;
+    font-size: 12px;  
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}   
+
+
+.bio p{
+    background-image: url(./coorscropsquare.PNG);
+    width:200px;
+    height:200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.0);
     
 }
+.bio p:hover {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.headertitle {
+    font-size: 16px;
+    text-decoration: solid;
+}
+
 main {
     background-image: url("beachphoto.PNG");
     background-size: cover;
@@ -35,8 +92,29 @@ main {
         display: grid;
         justify-content: center;
     }
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+        padding-bottom:.6rem;
+        padding-top:.6rem;
+        justify-content: center;
+    }
+    .headertext {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: white;
+        text-align: center;
+        border-radius: 4px;
+        max-width: 20rem;
+        min-width: 16rem;
+        max-height: 10rem;
+        font-size: 12px;
+        order: 1; 
   }
-
+}
 .cardcontainer {
     display: flex;
     align-items: center;
@@ -54,4 +132,35 @@ footer {
 .btn {
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.contactbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom:.6rem;
+    padding-top:.6rem;
+}
+
+.modal {
+    color: black;
+    text-align: center;
+}
+.modal-title h5 {
+
+    color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+        padding-bottom:.6rem;
+        padding-top:.6rem;
+        justify-content: center;
+    }
 }
