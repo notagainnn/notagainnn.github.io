@@ -19,10 +19,10 @@
     padding-right: 1rem;
     background-color: white;
     text-align: center;
-    border-radius: 100px;
-    max-width: 16rem;
-    min-width: 16rem;
-    max-height: 10rem;
+    border-radius: 4px;
+    max-width: 10rem;
+    min-width: 10rem;
+    max-height: 15rem;
     font-size: 12px;
     order: 1;   
 
