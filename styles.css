@@ -25,7 +25,7 @@
     max-height: 7rem;
     font-size: 14px;
     order: 1;   
-    opacity: 70%;
+    opacity: 85%;
 
 }
 
@@ -47,7 +47,7 @@
     height: 75px;
     text-decoration: none;
     font-weight: bold;
-    opacity: 70%;
+    opacity: 85%;
 }  
 
 .contact:hover {
@@ -73,7 +73,7 @@
     align-items: center;  
     font-size: 30px;
     color: rgba(0, 0, 0, 0.0);
-    opacity: 65%;
+    opacity: 85%;
     
 }
 .bio p:hover {
@@ -191,3 +191,34 @@ footer {
 .card:hover {
     opacity: 100%;
 }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 290px;
+    height: auto;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px 2px 2px 2px;
+    opacity: 0.8;
+    transition: opacity .8s;
+    left: 50%;
+    margin-left: -145px;
+    font-size: 16px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: .9;
+  }
