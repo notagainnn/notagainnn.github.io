@@ -1,3 +1,4 @@
+  
 .header {
     display: grid;
     grid-template-columns:50% 50%;
@@ -8,6 +9,8 @@
     padding-top:.6rem;
     margin-left: 30%;
     margin-right: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 .headertext {
@@ -49,6 +52,8 @@
     font-weight: bold;
     opacity: 95%;
     z-index: 11;
+    font-family: 'Open Sans', sans-serif;
+
 }  
 
 .contact:hover {
@@ -149,6 +154,8 @@ footer {
 .btn {
     padding-top: 0;
     padding-bottom: 0;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contactbox {
@@ -164,12 +171,11 @@ footer {
 .modal {
     color: black;
     text-align: center;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
-.modal-title h5 {
 
-    color: black;
-    text-align: center;
-}
+
 
 @media only screen and (max-width: 1300px) {
     .header {
@@ -188,6 +194,8 @@ footer {
 .card {
     opacity: 92%;
     z-index: 1;
+    margin-bottom: 1rem;
+    border: 2px solid white;
 }
 
 .card:hover {
@@ -214,6 +222,8 @@ footer {
     left: 50%;
     margin-left: -145px;
     font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
   
     /* Position the tooltip */
     position: absolute;
@@ -228,3 +238,4 @@ footer {
   .maincontainer {
       display: 0;
   }
+  
