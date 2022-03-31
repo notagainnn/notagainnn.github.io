@@ -84,14 +84,14 @@
     text-decoration: solid;
 }
 
-main {
+.mainContent {
     background-image: url("beachphoto.PNG");
     background-size: cover;
     padding-bottom: 10rem;
     min-height: 100vh;
 }
 @media only screen and (max-width: 768px) {
-    main {
+    .mainContent {
       background-image: none;
     }
 
