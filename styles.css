@@ -19,8 +19,8 @@
     padding-right: 1rem;
     background-color: white;
     text-align: center;
-    border-radius: 4px;
-    max-width: 20rem;
+    border-radius: 100px;
+    max-width: 16rem;
     min-width: 16rem;
     max-height: 10rem;
     font-size: 12px;
@@ -43,10 +43,16 @@
     left: 0;
     right: 0;
     bottom: 0;
-    height: 50px;
+    height: 75px;
     text-decoration: none;
     font-weight: bold;
 }   
+
+.resumebtn {
+    background-color:rgb(80, 207, 80);
+    color: white;
+    margin-top: -.6rem;
+}
 
 
 .bio p{
@@ -61,7 +67,7 @@
     align-items: center;  
     font-size: 30px;
     color: rgba(0, 0, 0, 0.0);
-    opacity: 30%;
+    opacity: 60%;
     
 }
 .bio p:hover {
