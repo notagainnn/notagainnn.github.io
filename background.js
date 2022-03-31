@@ -1,0 +1,43 @@
+let btn1 = document.querySelector('.headertext');
+let imageArray = [
+    "url('./granite_island_australia_rocks_beach_119442_1920x1080.jpg')", 
+    "url('./beach_ocean_sand_palm_trees_bungalows_95633_1920x1080.jpg", 
+    "url('./beach_sand_palm_trees_tropical_90404_1920x1080.jpg",
+    "url('./beach_tropics_sea_sand_palm_trees_sunset_84729_1920x1080.jpg",
+    "url('./boat_mountains_lake_135258_1920x1080.jpg",
+    "url('./coast_sea_palm_trees_142291_1920x1080.jpg",
+    "url('./forest_lake_reflection_island_mist_97668_1920x1080.jpg",
+    "url('./forest_trees_river_flow_landscape_86170_1920x1080.jpg",
+    "url('./granite_island_australia_rocks_beach_119442_1920x1080.jpg",
+    "url('./hawaii_coast_resort_rest_palm_trees_lagoon_blue_water_54603_1920x1080.jpg",
+    "url('./horizon_sunrise_sea_sun_118911_1920x1080.jpg",
+    "url('./maldives_tropical_beach_island_86184_1920x1080.jpg",
+    "url('./mountains_lake_grass_sky_summer_99494_1920x1080.jpg",
+    "url('./ocean_beach_tropics_122565_1920x1080.jpg",
+    "url('./ocean_horizon_sunset_135214_1920x1080.jpg",
+    "url('./ocean_shore_water_121930_1920x1080.jpg",
+    "url('./ocean_surf_foam_sea_water_117846_1920x1080.jpg",
+    "url('./palm_trees_sunset_clouds_135077_1920x1080.jpg",
+    "url('./palm_trees_sunset_tropics_142588_1920x1080.jpg",
+    "url('./pier_dock_sea_dusk_shore_118549_1920x1080.jpg",
+    "url('./porto_katsiki_lefkada_greece_ionian_sea_hdr_96456_1920x1080.jpg",
+    "url('./sea_beach_hacienda_84652_1920x1080.jpg",
+    "url('./sea_coast_rocks_underwater_world_vegetation_fish_53966_1920x1080.jpg",
+    "url('./sea_rocks_spray_surf_foam_103041_1920x1080.jpg",
+    "url('./sea_shore_trees_light_sand_105450_1920x1080.jpg",
+    "url('./sea_sun_sky_surf_84275_1920x1080.jpg",
+    "url('./sea_sunset_horizon_131804_1920x1080.jpg",
+    "url('./sea_waves_rocks_beach_sunrise_86181_1920x1080.jpg",
+    "url('./starry_sky_night_mountains_radiance_glitter_118791_1920x1080.jpg",
+    "url('./starry_sky_tree_sand_124955_1920x1080.jpg",
+    "url('./vacation_summer_warm_kind_sea_island_beach_sofas_table_fruit_drinks_85679_1920x1080.jpg",
+    "url('./vietnam_tropics_sea_84476_1920x1080.jpg",
+    "url('./waterfall_cliff_stone_141850_1920x1080.jpg",
+    "url('./waterfall_grass_nature_shadow_92753_1920x1080.jpg",
+    "url('./waterfall_tee_lo_su_thailand_cascade_105809_1920x1080.jpg",
+    "url('./wave_ocean_splash_sea_force_splashes_54955_1920x1080.jpg",
+
+]
+btn1.addEventListener('click', () =>{
+    document.body.style.backgroundImage = imageArray[Math.floor(Math.random() * imageArray.length)];
+});

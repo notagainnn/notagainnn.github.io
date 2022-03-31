@@ -47,7 +47,12 @@
     height: 75px;
     text-decoration: none;
     font-weight: bold;
-}   
+    opacity: 70%;
+}  
+
+.contact:hover {
+    opacity: 100%;
+}
 
 .resumebtn {
     background-color:rgb(80, 207, 80);
@@ -84,7 +89,7 @@
     text-decoration: solid;
 }
 
-.mainContent {
+body {
     background-image: url("beachphoto.PNG");
     background-size: cover;
     padding-bottom: 10rem;
